@@ -20,7 +20,7 @@ div {
 }
 
 .grid__item {
-  background: rgba(255, 65, 46, 0.3);
+  background: rgba(255, 65, 46, 0);
   padding: 1em;
   text-transform: uppercase;
 }
@@ -95,8 +95,8 @@ div {
 .grid__item_item-v4 {
   grid-column: col / span 2;
   grid-row: row 2;
-  padding: 0.1em;
-  font-size: calc(2em + 2vw);
+  padding: 0.00001em;
+  font-size: calc(2.5em + 2vw);
 }
 
 /* СБОР */
@@ -107,6 +107,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -119,6 +120,7 @@ div {
   grid-row: row 2;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  margin-right: auto;
   display: flex;
   align-items: flex-end;
 }
@@ -131,6 +133,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -143,6 +146,7 @@ div {
   grid-row: row 2;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  margin-right: auto;
   display: flex;
   align-items: flex-end;
 }
@@ -155,6 +159,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -165,8 +170,8 @@ div {
 .grid__item_item-v10 {
   grid-column: col / span 2;
   grid-row: row 3;
-  padding: 0.1em;
-  font-size: calc(2em + 2vw);
+  padding: 0.00001em;
+  font-size: calc(2.5em + 2vw);
 }
 
 /* ЧАЕПИТИЕ */
@@ -177,6 +182,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -189,6 +195,7 @@ div {
   grid-row: row 3;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  margin-right: auto;
   display: flex;
   align-items: flex-end;
 }
@@ -201,6 +208,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -213,6 +221,7 @@ div {
   grid-row: row 3;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  margin-right: auto;
   display: flex;
   align-items: flex-end;
 }
@@ -225,6 +234,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -235,8 +245,8 @@ div {
 .grid__item_item-v16 {
   grid-column: col / span 2;
   grid-row: row 5;
-  padding: 0.1em;
-    font-size: calc(2em + 2vw);
+  padding: 0.00001em;
+  font-size: calc(2.5em + 2vw);
 }
 
 /* ЛЕКЦИЯ */
@@ -247,6 +257,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -259,6 +270,7 @@ div {
   grid-row: row 5;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  margin-right: auto;
   display: flex;
   align-items: flex-end;
 }
@@ -271,6 +283,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -283,6 +296,7 @@ div {
   grid-row: row 5;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  margin-right: auto;
   display: flex;
   align-items: flex-end;
 }
@@ -295,6 +309,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -305,8 +320,8 @@ div {
 .grid__item_item-v22 {
   grid-column: col / span 2;
   grid-row: row 6;
-  padding: 0.1em;
-    font-size: calc(2em + 2vw);
+  padding: 0.00001em;
+  font-size: calc(2.5em + 2vw);
 }
 
 /* ГОСТИ */
@@ -317,6 +332,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -329,6 +345,7 @@ div {
   grid-row: row 6;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  margin-right: auto;
   display: flex;
   align-items: flex-end;
 }
@@ -341,6 +358,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -353,6 +371,7 @@ div {
   grid-row: row 6;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  margin-right: auto;
   display: flex;
   align-items: flex-end;
 }
@@ -365,6 +384,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -375,8 +395,8 @@ div {
 .grid__item_item-v28 {
   grid-column: col / span 2;
   grid-row: row 7;
-  padding: 0.1em;
-  font-size: calc(2em + 2vw);
+  padding: 0.00001em;
+  font-size: calc(2.5em + 2vw);
 }
 
 /* ЗАВЕРШЕНИЕ */
@@ -387,6 +407,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -399,6 +420,7 @@ div {
   grid-row: row 7;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  margin-right: auto;
   display: flex;
   align-items: flex-end;
 }
@@ -411,6 +433,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
@@ -423,6 +446,7 @@ div {
   grid-row: row 7;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  margin-right: auto;
   display: flex;
   align-items: flex-end;
 }
@@ -435,6 +459,7 @@ div {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   text-transform text-transform: uppercase;
