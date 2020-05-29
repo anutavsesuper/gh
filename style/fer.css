@@ -4,32 +4,46 @@ div {
   -moz-user-select: none;
   -khtml-user-select: none;
   user-select: none;
+  /* transition: 1s; */
 }
 
 .grid1,
-.grid2 {
+.grid2,
+.grid3 {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
-  grid-template-rows: repeat(5, [row] auto);
+  grid-template-rows: repeat(6, [row] auto);
   grid-column-gap: 1em;
-  grid-row-gap: 1em;
   margin-top: 7em;
   margin-left: 3em;
   margin-right: 3em;
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
+.grid2{
+  grid-row-gap: 7em;
+}
+
+.grid2,
+.grid3 {
+  margin-top: 4em;
+}
+
+.grid1,
+.grid3 {
+  grid-row-gap: 0.5em;
+}
+
 .grid__item {
   background: rgba(255, 65, 46, 0);
   padding: 1em;
-  text-transform: uppercase;
 }
 
 .grid__item_item1 {
   grid-column: col / span 7;
   grid-row: row;
-  padding: 0.1em;
-  font-size: calc(4em + 6vw);
+  padding: 0.00001em;;
+  font-size: calc(1em + 10vw);
   color: #FFF;
   -webkit-text-fill-color: #FFF;
   -webkit-text-stroke: 2px black;
@@ -38,22 +52,22 @@ div {
 .grid__item_item2 {
   grid-column: col / span 8;
   grid-row: row 2;
-  padding: 0.1em;
-  font-size: calc(4em + 6vw);
+  padding: 0.00001em;;
+  font-size: calc(1em + 10vw);
 }
 
 .grid__item_item3 {
   grid-column: col / span 6;
   grid-row: row 3;
-  padding: 0.1em;
-  font-size: calc(4em + 6vw);
+  padding: 0.00001em;;
+  font-size: calc(1em + 10vw);
 }
 
 .grid__item_item4 {
   grid-column: col / span 10;
   grid-row: row 4;
-  padding: 0.1em;
-  font-size: calc(4em + 6vw);
+  padding: 0.00001em;;
+  font-size: calc(1em + 10vw);
 }
 
 
@@ -65,7 +79,7 @@ div {
   grid-column: col / span 4;
   grid-row: row / span 1;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
   font-family: "Arial Regular", Gadget, sans-serif;
 }
 
@@ -74,7 +88,7 @@ div {
   grid-column: col 5/ span 4;
   grid-row: row;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
   font-family: "Arial Regular", Gadget, sans-serif;
 }
 
@@ -83,7 +97,7 @@ div {
   grid-column: col 9 / span 4;
   grid-row: row;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
   font-family: "Arial Regular", Gadget, sans-serif;
 }
 
@@ -96,7 +110,7 @@ div {
   grid-column: col / span 2;
   grid-row: row 2;
   padding: 0.00001em;
-  font-size: calc(2.5em + 2vw);
+  font-size: calc(1em + 3.2vw);
 }
 
 /* СБОР */
@@ -110,7 +124,6 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
   align-items: flex-end;
 }
 
@@ -119,7 +132,8 @@ div {
   grid-column: col 5 / span 2;
   grid-row: row 2;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
+  line-height: 1em;
   margin-right: auto;
   display: flex;
   align-items: flex-end;
@@ -136,7 +150,6 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
   align-items: flex-end;
 }
 
@@ -145,7 +158,8 @@ div {
   grid-column: col 9 / span 2;
   grid-row: row 2;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
+  line-height: 1em;
   margin-right: auto;
   display: flex;
   align-items: flex-end;
@@ -162,7 +176,6 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
   align-items: flex-end;
 }
 
@@ -171,7 +184,7 @@ div {
   grid-column: col / span 2;
   grid-row: row 3;
   padding: 0.00001em;
-  font-size: calc(2.5em + 2vw);
+  font-size: calc(1em + 3.2vw);
 }
 
 /* ЧАЕПИТИЕ */
@@ -185,7 +198,6 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
   align-items: flex-end;
 }
 
@@ -194,7 +206,8 @@ div {
   grid-column: col 5 / span 2;
   grid-row: row 3;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
+  line-height: 1em;
   margin-right: auto;
   display: flex;
   align-items: flex-end;
@@ -211,7 +224,6 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
   align-items: flex-end;
 }
 
@@ -220,7 +232,8 @@ div {
   grid-column: col 9 / span 2;
   grid-row: row 3;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
+  line-height: 1em;
   margin-right: auto;
   display: flex;
   align-items: flex-end;
@@ -237,22 +250,21 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
   align-items: flex-end;
 }
 
 /* 15:00 */
 .grid__item_item-v16 {
   grid-column: col / span 2;
-  grid-row: row 5;
+  grid-row: row 4;
   padding: 0.00001em;
-  font-size: calc(2.5em + 2vw);
+  font-size: calc(1em + 3.2vw);
 }
 
 /* ЛЕКЦИЯ */
 .grid__item_item-v17 {
   grid-column: col 3 / span 2;
-  grid-row: row 5;
+  grid-row: row 4;
   padding: 0.1em;
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
@@ -260,16 +272,16 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
   align-items: flex-end;
 }
 
 /* НАТАЛЬЯ */
 .grid__item_item-v18 {
   grid-column: col 5 / span 2;
-  grid-row: row 5;
+  grid-row: row 4;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
+  line-height: 1em;
   margin-right: auto;
   display: flex;
   align-items: flex-end;
@@ -278,7 +290,7 @@ div {
 /* ДИРЕКТОР */
 .grid__item_item-v19 {
   grid-column: col 7 / span 2;
-  grid-row: row 5;
+  grid-row: row 4;
   padding: 0.1em;
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
@@ -286,16 +298,16 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
   align-items: flex-end;
 }
 
 /* ОБЪЯСНИМ */
 .grid__item_item-v20 {
   grid-column: col 9 / span 2;
-  grid-row: row 5;
+  grid-row: row 4;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
+  line-height: 1em;
   margin-right: auto;
   display: flex;
   align-items: flex-end;
@@ -304,6 +316,28 @@ div {
 /* КАК ОБЩАТЬСЯ */
 .grid__item_item-v21 {
   grid-column: col 11 / span 2;
+  grid-row: row 4;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 16:00 */
+.grid__item_item-v22 {
+  grid-column: col / span 2;
+  grid-row: row 5;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ГОСТИ */
+.grid__item_item-v23 {
+  grid-column: col 3 / span 2;
   grid-row: row 5;
   padding: 0.1em;
   font-size: calc(0.5em + 0.5vw);
@@ -312,39 +346,16 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
-  align-items: flex-end;
-}
-
-/* 16:00 */
-.grid__item_item-v22 {
-  grid-column: col / span 2;
-  grid-row: row 6;
-  padding: 0.00001em;
-  font-size: calc(2.5em + 2vw);
-}
-
-/* ГОСТИ */
-.grid__item_item-v23 {
-  grid-column: col 3 / span 2;
-  grid-row: row 6;
-  padding: 0.1em;
-  font-size: calc(0.5em + 0.5vw);
-  font-family: "Arial Regular", Gadget, sans-serif;
-  text-align: right;
-  margin-bottom: 0.1em;
-  display: flex;
-  margin-left: auto;
-  text-transform text-transform: uppercase;
   align-items: flex-end;
 }
 
 /* МИХАИЛ */
 .grid__item_item-v24 {
   grid-column: col 5 / span 2;
-  grid-row: row 6;
+  grid-row: row 5;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
+  line-height: 1em;
   margin-right: auto;
   display: flex;
   align-items: flex-end;
@@ -353,7 +364,7 @@ div {
 /* ЭКСПЕРТ */
 .grid__item_item-v25 {
   grid-column: col 7 / span 2;
-  grid-row: row 6;
+  grid-row: row 5;
   padding: 0.1em;
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
@@ -361,16 +372,16 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
   align-items: flex-end;
 }
 
 /* УГОСТИМ ЧАЕМ */
 .grid__item_item-v26 {
   grid-column: col 9 / span 2;
-  grid-row: row 6;
+  grid-row: row 5;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
+  line-height: 1em;
   margin-right: auto;
   display: flex;
   align-items: flex-end;
@@ -379,6 +390,28 @@ div {
 /* НА ВАШ ВЫБОР */
 .grid__item_item-v27 {
   grid-column: col 11 / span 2;
+  grid-row: row 5;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 18:00 */
+.grid__item_item-v28 {
+  grid-column: col / span 2;
+  grid-row: row 6;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ЗАВЕРШЕНИЕ */
+.grid__item_item-v29 {
+  grid-column: col 3 / span 2;
   grid-row: row 6;
   padding: 0.1em;
   font-size: calc(0.5em + 0.5vw);
@@ -387,39 +420,16 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
-  align-items: flex-end;
-}
-
-/* 18:00 */
-.grid__item_item-v28 {
-  grid-column: col / span 2;
-  grid-row: row 7;
-  padding: 0.00001em;
-  font-size: calc(2.5em + 2vw);
-}
-
-/* ЗАВЕРШЕНИЕ */
-.grid__item_item-v29 {
-  grid-column: col 3 / span 2;
-  grid-row: row 7;
-  padding: 0.1em;
-  font-size: calc(0.5em + 0.5vw);
-  font-family: "Arial Regular", Gadget, sans-serif;
-  text-align: right;
-  margin-bottom: 0.1em;
-  display: flex;
-  margin-left: auto;
-  text-transform text-transform: uppercase;
   align-items: flex-end;
 }
 
 /* АРТЕМ */
 .grid__item_item-v30 {
   grid-column: col 5 / span 2;
-  grid-row: row 7;
+  grid-row: row 6;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
+  line-height: 1em;
   margin-right: auto;
   display: flex;
   align-items: flex-end;
@@ -428,7 +438,7 @@ div {
 /* УЧЕНЫЙ */
 .grid__item_item-v31 {
   grid-column: col 7 / span 2;
-  grid-row: row 7;
+  grid-row: row 6;
   padding: 0.1em;
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
@@ -436,16 +446,16 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
   align-items: flex-end;
 }
 
 /* И ПЕЧЕНЬЕМ */
 .grid__item_item-v32 {
   grid-column: col 9 / span 2;
-  grid-row: row 7;
+  grid-row: row 6;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(1em + 0.75vw);
+  line-height: 1em;
   margin-right: auto;
   display: flex;
   align-items: flex-end;
@@ -454,7 +464,7 @@ div {
 /* ФИРМЕННЫМ */
 .grid__item_item-v33 {
   grid-column: col 11 / span 2;
-  grid-row: row 7;
+  grid-row: row 6;
   padding: 0.1em;
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
@@ -462,6 +472,107 @@ div {
   margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
-  text-transform text-transform: uppercase;
+  align-items: flex-end;
+}
+
+
+/* 20 */
+.grid__item_item-h1{
+  grid-column: col / span 4;
+  grid-row: row;
+  padding: 0.00001em;
+  font-size: calc(1em + 10vw);
+}
+
+/* 06 */
+.grid__item_item-h2{
+  grid-column: col / span 4;
+  grid-row: row 2;
+  padding: 0.00001em;
+  font-size: calc(1em + 10vw);
+}
+
+/* 2020 */
+.grid__item_item-h3{
+  grid-column: col / span 4;
+  grid-row: row 3;
+  padding: 0.00001em;
+  font-size: calc(1em + 10vw);
+}
+
+/* 13 */
+.grid__item_item-h4{
+  grid-column: col / span 4;
+  grid-row: row 4;
+  padding: 0.00001em;
+  font-size: calc(1em + 10vw);
+  color: #FFF;
+  -webkit-text-fill-color: #FFF;
+  -webkit-text-stroke: 2px black;
+}
+
+/* 00 */
+.grid__item_item-h5{
+  grid-column: col / span 4;
+  grid-row: row 5;
+  padding: 0.00001em;
+  font-size: calc(1em + 10vw);
+  color: #FFF;
+  -webkit-text-fill-color: #FFF;
+  -webkit-text-stroke: 2px black;
+}
+
+/* ПОКАЖЕМ */
+.grid__item_item-h6{
+  grid-column: col 6 / span 3;
+  grid-row: row;
+  padding: 0.1em;
+  font-size: calc(1em + 0.75vw);
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* РАССКАЖЕМ */
+.grid__item_item-h7{
+  grid-column: col 6 / span 3;
+  grid-row: row 2;
+  padding: 0.1em;
+  font-size: calc(1em + 0.75vw);
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* ОБЪЯСНИМ */
+.grid__item_item-h8{
+  grid-column: col 6 / span 3;
+  grid-row: row 3;
+  padding: 0.1em;
+  font-size: calc(1em + 0.75vw);
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* УГОСТИМ ЧАЕМ */
+.grid__item_item-h9{
+  grid-column: col 6 / span 3;
+  grid-row: row 4;
+  padding: 0.1em;
+  font-size: calc(1em + 0.75vw);
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* И ПЕЧЕНЬЯМИ */
+.grid__item_item-h10{
+  grid-column: col 6 / span 3;
+  grid-row: row 5;
+  padding: 0.1em;
+  font-size: calc(1em + 0.75vw);
+  display: flex;
+  margin-left: auto;
   align-items: flex-end;
 }
