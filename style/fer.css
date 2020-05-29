@@ -1,12 +1,18 @@
 @import "reset.css";
 
+div {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
 
-.grid1 {
+.grid1,
+.grid2 {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
   grid-template-rows: repeat(5, [row] auto);
   grid-column-gap: 1em;
-  grid-row-gap: 50px;
+  grid-row-gap: 1em;
   margin-top: 7em;
   margin-left: 3em;
   margin-right: 3em;
@@ -14,9 +20,8 @@
 }
 
 .grid__item {
-  /* background: #eee; */
-  text-transform: uppercase;
-  padding: 10em;
+  background: rgba(255, 65, 46, 0.5);
+  padding: 1em;
 }
 
 .grid__item_item1 {
@@ -26,24 +31,298 @@
   font-size: calc(4em + 6vw);
 }
 
-.grid__item_item4 {
+.grid__item_item2 {
   grid-column: col / span 8;
   grid-row: row 2;
   padding: 0.1em;
   font-size: calc(4em + 6vw);
 }
 
-.grid__item_item6 {
+.grid__item_item3 {
   grid-column: col / span 6;
   grid-row: row 3;
   padding: 0.1em;
   font-size: calc(4em + 6vw);
 }
 
-.grid__item_item10 {
+.grid__item_item4 {
   grid-column: col / span 10;
   grid-row: row 4;
   padding: 0.1em;
   font-size: calc(4em + 6vw);
 }
 
+
+
+
+
+/* ВРЕМЯ */
+.grid__item_item-v1 {
+  grid-column: col / span 4;
+  grid-row: row / span 1;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ГОСТИ */
+.grid__item_item-v2 {
+  grid-column: col 5/ span 4;
+  grid-row: row;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ТЕМА */
+.grid__item_item-v3 {
+  grid-column: col 9 / span 4;
+  grid-row: row;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+
+
+
+
+/* 13:00 */
+.grid__item_item-v4 {
+  grid-column: col / span 2;
+  grid-row: row 2;
+  padding: 0.1em;
+  font-size: calc(2em + 3vw);
+}
+
+/* СБОР */
+.grid__item_item-v5 {
+  grid-column: col 3 / span 2;
+  grid-row: row 2;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+  display: flex;
+  align-items: flex-end;
+  text-align: justify;
+}
+
+/* ВИКТОР */
+.grid__item_item-v6 {
+  grid-column: col 5 / span 2;
+  grid-row: row 2;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* КУРАТОР */
+.grid__item_item-v7 {
+  grid-column: col 7 / span 2;
+  grid-row: row 2;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ПОКАЖЕМ */
+.grid__item_item-v8 {
+  grid-column: col 9 / span 2;
+  grid-row: row 2;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ВИДЕО И ФОТО */
+.grid__item_item-v9 {
+  grid-column: col 11 / span 2;
+  grid-row: row 2;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* 13:00 */
+.grid__item_item-v10 {
+  grid-column: col / span 2;
+  grid-row: row 3;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ЧАЕПИТИЕ */
+.grid__item_item-v11 {
+  grid-column: col 3 / span 2;
+  grid-row: row 3;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ТАТЬЯНА */
+.grid__item_item-v12 {
+  grid-column: col 5 / span 2;
+  grid-row: row 3;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ИССЛЕДОВАТЕЛЬ */
+.grid__item_item-v13 {
+  grid-column: col 7 / span 2;
+  grid-row: row 3;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* РАССКАЖЕМ */
+.grid__item_item-v14 {
+  grid-column: col 9 / span 2;
+  grid-row: row 3;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ГДЕ ОБИТАЮТ */
+.grid__item_item-v15 {
+  grid-column: col 11 / span 2;
+  grid-row: row 3;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* 15:00 */
+.grid__item_item-v16 {
+  grid-column: col / span 2;
+  grid-row: row 5;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ЛЕКЦИЯ */
+.grid__item_item-v17 {
+  grid-column: col 3 / span 2;
+  grid-row: row 5;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* НАТАЛЬЯ */
+.grid__item_item-v18 {
+  grid-column: col 5 / span 2;
+  grid-row: row 5;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ДИРЕКТОР */
+.grid__item_item-v19 {
+  grid-column: col 7 / span 2;
+  grid-row: row 5;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ОБЪЯСНИМ */
+.grid__item_item-v20 {
+  grid-column: col 9 / span 2;
+  grid-row: row 5;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* КАК ОБЩАТЬСЯ */
+.grid__item_item-v21 {
+  grid-column: col 11 / span 2;
+  grid-row: row 5;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* 16:00 */
+.grid__item_item-v22 {
+  grid-column: col / span 2;
+  grid-row: row 6;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ГОСТИ */
+.grid__item_item-v23 {
+  grid-column: col 3 / span 2;
+  grid-row: row 6;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* МИХАИЛ */
+.grid__item_item-v24 {
+  grid-column: col 5 / span 2;
+  grid-row: row 6;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ЭКСПЕРТ */
+.grid__item_item-v25 {
+  grid-column: col 7 / span 2;
+  grid-row: row 6;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* УГОСТИМ ЧАЕМ */
+.grid__item_item-v26 {
+  grid-column: col 9 / span 2;
+  grid-row: row 6;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* НА ВАШ ВЫБОР */
+.grid__item_item-v27 {
+  grid-column: col 11 / span 2;
+  grid-row: row 6;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* 18:00 */
+.grid__item_item-v28 {
+  grid-column: col / span 2;
+  grid-row: row 7;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ЗАВЕРШЕНИЕ */
+.grid__item_item-v29 {
+  grid-column: col 3 / span 2;
+  grid-row: row 7;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* АРТЕМ */
+.grid__item_item-v30 {
+  grid-column: col 5 / span 2;
+  grid-row: row 7;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* УЧЕНЫЙ */
+.grid__item_item-v31 {
+  grid-column: col 7 / span 2;
+  grid-row: row 7;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* И ПЕЧЕНЬЕМ */
+.grid__item_item-v32 {
+  grid-column: col 9 / span 2;
+  grid-row: row 7;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
+
+/* ФИРМЕННЫМ */
+.grid__item_item-v33 {
+  grid-column: col 11 / span 2;
+  grid-row: row 7;
+  padding: 0.1em;
+  font-size: calc(0.9em + 0.5vw);
+}
