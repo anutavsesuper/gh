@@ -20,8 +20,9 @@ div {
 }
 
 .grid__item {
-  background: rgba(255, 65, 46, 0.2);
+  background: rgba(255, 65, 46, 0.3);
   padding: 1em;
+  text-transform: uppercase;
 }
 
 .grid__item_item1 {
@@ -29,6 +30,9 @@ div {
   grid-row: row;
   padding: 0.1em;
   font-size: calc(4em + 6vw);
+  color: #FFF;
+  -webkit-text-fill-color: #FFF;
+  -webkit-text-stroke: 2px black;
 }
 
 .grid__item_item2 {
@@ -62,6 +66,7 @@ div {
   grid-row: row / span 1;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
 }
 
 /* ГОСТИ */
@@ -70,6 +75,7 @@ div {
   grid-row: row;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
 }
 
 /* ТЕМА */
@@ -78,6 +84,7 @@ div {
   grid-row: row;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
 }
 
 
@@ -89,7 +96,7 @@ div {
   grid-column: col / span 2;
   grid-row: row 2;
   padding: 0.1em;
-  font-size: calc(2em + 3vw);
+  font-size: calc(2em + 2vw);
 }
 
 /* СБОР */
@@ -97,10 +104,13 @@ div {
   grid-column: col 3 / span 2;
   grid-row: row 2;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
   display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
   align-items: flex-end;
-  text-align: justify;
 }
 
 /* ВИКТОР */
@@ -109,6 +119,8 @@ div {
   grid-row: row 2;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  display: flex;
+  align-items: flex-end;
 }
 
 /* КУРАТОР */
@@ -116,7 +128,13 @@ div {
   grid-column: col 7 / span 2;
   grid-row: row 2;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* ПОКАЖЕМ */
@@ -125,6 +143,8 @@ div {
   grid-row: row 2;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  display: flex;
+  align-items: flex-end;
 }
 
 /* ВИДЕО И ФОТО */
@@ -132,7 +152,13 @@ div {
   grid-column: col 11 / span 2;
   grid-row: row 2;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* 13:00 */
@@ -140,7 +166,7 @@ div {
   grid-column: col / span 2;
   grid-row: row 3;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(2em + 2vw);
 }
 
 /* ЧАЕПИТИЕ */
@@ -148,7 +174,13 @@ div {
   grid-column: col 3 / span 2;
   grid-row: row 3;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* ТАТЬЯНА */
@@ -157,6 +189,8 @@ div {
   grid-row: row 3;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  display: flex;
+  align-items: flex-end;
 }
 
 /* ИССЛЕДОВАТЕЛЬ */
@@ -164,7 +198,13 @@ div {
   grid-column: col 7 / span 2;
   grid-row: row 3;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* РАССКАЖЕМ */
@@ -173,6 +213,8 @@ div {
   grid-row: row 3;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  display: flex;
+  align-items: flex-end;
 }
 
 /* ГДЕ ОБИТАЮТ */
@@ -180,7 +222,13 @@ div {
   grid-column: col 11 / span 2;
   grid-row: row 3;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* 15:00 */
@@ -188,7 +236,7 @@ div {
   grid-column: col / span 2;
   grid-row: row 5;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+    font-size: calc(2em + 2vw);
 }
 
 /* ЛЕКЦИЯ */
@@ -196,7 +244,13 @@ div {
   grid-column: col 3 / span 2;
   grid-row: row 5;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* НАТАЛЬЯ */
@@ -205,6 +259,8 @@ div {
   grid-row: row 5;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  display: flex;
+  align-items: flex-end;
 }
 
 /* ДИРЕКТОР */
@@ -212,7 +268,13 @@ div {
   grid-column: col 7 / span 2;
   grid-row: row 5;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* ОБЪЯСНИМ */
@@ -221,6 +283,8 @@ div {
   grid-row: row 5;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  display: flex;
+  align-items: flex-end;
 }
 
 /* КАК ОБЩАТЬСЯ */
@@ -228,7 +292,13 @@ div {
   grid-column: col 11 / span 2;
   grid-row: row 5;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* 16:00 */
@@ -236,7 +306,7 @@ div {
   grid-column: col / span 2;
   grid-row: row 6;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+    font-size: calc(2em + 2vw);
 }
 
 /* ГОСТИ */
@@ -244,7 +314,13 @@ div {
   grid-column: col 3 / span 2;
   grid-row: row 6;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* МИХАИЛ */
@@ -253,6 +329,8 @@ div {
   grid-row: row 6;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  display: flex;
+  align-items: flex-end;
 }
 
 /* ЭКСПЕРТ */
@@ -260,7 +338,13 @@ div {
   grid-column: col 7 / span 2;
   grid-row: row 6;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* УГОСТИМ ЧАЕМ */
@@ -269,6 +353,8 @@ div {
   grid-row: row 6;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  display: flex;
+  align-items: flex-end;
 }
 
 /* НА ВАШ ВЫБОР */
@@ -276,7 +362,13 @@ div {
   grid-column: col 11 / span 2;
   grid-row: row 6;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* 18:00 */
@@ -284,7 +376,7 @@ div {
   grid-column: col / span 2;
   grid-row: row 7;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(2em + 2vw);
 }
 
 /* ЗАВЕРШЕНИЕ */
@@ -292,7 +384,13 @@ div {
   grid-column: col 3 / span 2;
   grid-row: row 7;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* АРТЕМ */
@@ -301,6 +399,8 @@ div {
   grid-row: row 7;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  display: flex;
+  align-items: flex-end;
 }
 
 /* УЧЕНЫЙ */
@@ -308,7 +408,13 @@ div {
   grid-column: col 7 / span 2;
   grid-row: row 7;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
 
 /* И ПЕЧЕНЬЕМ */
@@ -317,6 +423,8 @@ div {
   grid-row: row 7;
   padding: 0.1em;
   font-size: calc(0.9em + 0.5vw);
+  display: flex;
+  align-items: flex-end;
 }
 
 /* ФИРМЕННЫМ */
@@ -324,5 +432,11 @@ div {
   grid-column: col 11 / span 2;
   grid-row: row 7;
   padding: 0.1em;
-  font-size: calc(0.9em + 0.5vw);
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  display: flex;
+  margin-left: auto;
+  text-transform text-transform: uppercase;
+  align-items: flex-end;
 }
