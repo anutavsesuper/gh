@@ -37,17 +37,14 @@ h1:hover {
   height: 100vh;
 }
 
-.lekcia {
+.hh {
   color: #FFF;
   -webkit-text-fill-color: #FFF;
   -webkit-text-stroke: 2px black;
 }
 
-.lekcia,
-.kakovo,
-.but,
-.jurafom,
-.chislo {
+.hh,
+.h {
   font-size: 20vh;
 }
 
@@ -61,12 +58,15 @@ h1:hover {
   line-height: 20vh;
 }
 
-.one1300,
-.one1330,
-.one1500,
-.one1600,
-.one1800{
+.timetime {
   font-size: 10vh;
+}
+
+canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  display: block;
 }
 
 .one,
@@ -78,22 +78,49 @@ h1:hover {
   display: flex;
   justify-content: flex-start;
   margin-left: 3vh;
+  text-align: right;
 }
 
-.sbor,
-.chay,
-.lec,
-.gosty,
-.zavershenie{
+.what {
+  font-size: 2vh;
+  font-family: Arial;
+  margin-left: 17vh;
+  margin-top: 3.5vh;
+  width: 20vh;
+  letter-spacing: -0.005em;
+}
+
+.guestname {
   font-size: 3vh;
-  font-family: Arial; font-weight: regular;
-  margin-left: 15vh;
-  margin-top: 3vh;
+  margin-left: 3vh;
+  margin-top: 5.5vh;
+  line-height: 5vh;
+  text-align: left;
+  width: 25vh;
 }
 
-canvas {
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  display: block;
+.who {
+  font-size: 2vh;
+  font-family: Arial;
+  margin-left: 17vh;
+  margin-top: 3.5vh;
+  width: 20vh;
+  letter-spacing: -0.005em;
+}
+
+.whatwilldo {
+  font-size: 3vh;
+  margin-left: 3vh;
+  margin-top: 2.8vh;
+  text-align: left;
+  width: 30vh;
+}
+
+.whattell {
+  font-size: 2vh;
+  font-family: Arial;
+  margin-left: 17vh;
+  margin-top: 3.5vh;
+  width: 20vh;
+  letter-spacing: -0.005em;
 }
