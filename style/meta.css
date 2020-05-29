@@ -79,6 +79,7 @@ canvas {
   justify-content: flex-start;
   margin-left: 3vh;
   text-align: right;
+  width: 100%;
 }
 
 .what {
