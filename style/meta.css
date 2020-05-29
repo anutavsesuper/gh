@@ -84,7 +84,7 @@ canvas {
 .what {
   font-size: 2vh;
   font-family: Arial;
-  margin-left: 17vh;
+  margin-left: 5vh;
   margin-top: 3.5vh;
   width: 20vh;
   letter-spacing: -0.005em;
@@ -102,7 +102,7 @@ canvas {
 .who {
   font-size: 2vh;
   font-family: Arial;
-  margin-left: 17vh;
+  margin-left: 5vh;
   margin-top: 3.5vh;
   width: 20vh;
   letter-spacing: -0.005em;
@@ -119,7 +119,8 @@ canvas {
 .whattell {
   font-size: 2vh;
   font-family: Arial;
-  margin-left: 17vh;
+  margin-left: 5vh;
+  margin-right: 6vh;
   margin-top: 3.5vh;
   width: 20vh;
   letter-spacing: -0.005em;
