@@ -9,7 +9,8 @@ div {
 
 .grid1,
 .grid2,
-.grid3 {
+.grid3,
+.grid4 {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
   grid-template-rows: repeat(6, [row] auto);
@@ -20,13 +21,15 @@ div {
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
-.grid2{
-  grid-row-gap: 7em;
+.grid2,
+.grid4 {
+  grid-row-gap: 5em;
 }
 
 .grid2,
-.grid3 {
-  margin-top: 4em;
+.grid3,
+.grid4 {
+  margin-top: 7em;
 }
 
 .grid1,
@@ -572,6 +575,350 @@ div {
   grid-row: row 5;
   padding: 0.1em;
   font-size: calc(1em + 0.75vw);
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+
+
+
+
+
+/* КАЛЕНДАРЬ СОБЫТИЙ */
+.grid__item_item-m1 {
+  grid-column: col / span 4;
+  grid-row: row / span 1;
+  padding: 0.1em;
+  font-size: calc(1em + 0.75vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+}
+
+/* 03/07 */
+.grid__item_item-m2 {
+  grid-column: col / span 2;
+  grid-row: row 2;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ЛЕЦИЯ */
+.grid__item_item-m3 {
+  grid-column: col 3/ span 2;
+  grid-row: row 2;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 13/09 */
+.grid__item_item-m4 {
+  grid-column: col 5/ span 2;
+  grid-row: row 2;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ТУСОВКА */
+.grid__item_item-m5 {
+  grid-column: col 7 / span 2;
+  grid-row: row 2;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 03/11 */
+.grid__item_item-m6 {
+  grid-column: col 9 / span 2;
+  grid-row: row 2;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ПИКНИК */
+.grid__item_item-m7 {
+  grid-column: col 11 / span 2;
+  grid-row: row 2;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 15/07 */
+.grid__item_item-m8 {
+  grid-column: col / span 2;
+  grid-row: row 3;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ТУСОВКА */
+.grid__item_item-m9 {
+  grid-column: col 3 / span 2;
+  grid-row: row 3;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 15/09 */
+.grid__item_item-m10 {
+  grid-column: col 5/ span 2;
+  grid-row: row 3;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ЛЕКЦИЯ */
+.grid__item_item-m11 {
+  grid-column: col 7 / span 2;
+  grid-row: row 3;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 25/11 */
+.grid__item_item-m12 {
+  grid-column: col 9 / span 2;
+  grid-row: row 3;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ЛЕКЦИЯ */
+.grid__item_item-m13 {
+  grid-column: col 11 / span 2;
+  grid-row: row 3;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 15/08 */
+.grid__item_item-m14 {
+  grid-column: col / span 2;
+  grid-row: row 4;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ПИКНИК */
+.grid__item_item-m15 {
+  grid-column: col 3/ span 2;
+  grid-row: row 4;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 05/10 */
+.grid__item_item-m16 {
+  grid-column: col 5/ span 2;
+  grid-row: row 4;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ЛЕКЦИЯ */
+.grid__item_item-m17 {
+  grid-column: col 7/ span 2;
+  grid-row: row 4;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 15/12 */
+.grid__item_item-m18 {
+  grid-column: col 9 / span 2;
+  grid-row: row 4;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ПИКНИК */
+.grid__item_item-m19 {
+  grid-column: col 11 / span 2;
+  grid-row: row 4;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 23/08 */
+.grid__item_item-m20 {
+  grid-column: col / span 2;
+  grid-row: row 5;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ЛЕКЦИЯ */
+.grid__item_item-m21 {
+  grid-column: col 3 / span 2;
+  grid-row: row 5;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 23/10 */
+.grid__item_item-m22 {
+  grid-column: col 5/ span 2;
+  grid-row: row 5;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ТУСОВКА */
+.grid__item_item-m23 {
+  grid-column: col 7/ span 2;
+  grid-row: row 5;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 13/12 */
+.grid__item_item-m24 {
+  grid-column: col 9/ span 2;
+  grid-row: row 5;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ТУСОВКА */
+.grid__item_item-m25 {
+  grid-column: col 11/ span 2;
+  grid-row: row 5;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 03/09 */
+.grid__item_item-m26 {
+  grid-column: col / span 2;
+  grid-row: row 6;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ТУСОВКА */
+.grid__item_item-m27 {
+  grid-column: col 3/ span 2;
+  grid-row: row 6;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 15/10 */
+.grid__item_item-m28 {
+  grid-column: col 5/ span 2;
+  grid-row: row 6;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ПИКНИК */
+.grid__item_item-m29 {
+  grid-column: col 7/ span 2;
+  grid-row: row 6;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+/* 25/12 */
+.grid__item_item-m30 {
+  grid-column: col 9/ span 2;
+  grid-row: row 6;
+  padding: 0.00001em;
+  font-size: calc(1em + 3.2vw);
+}
+
+/* ЛЕКЦИЯ */
+.grid__item_item-m31 {
+  grid-column: col 11/ span 2;
+  grid-row: row 6;
+  padding: 0.1em;
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: right;
+  margin-bottom: 0.1em;
   display: flex;
   margin-left: auto;
   align-items: flex-end;
