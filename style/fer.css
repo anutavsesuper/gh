@@ -1,11 +1,174 @@
 @import "reset.css";
 
 
-/* body {
-  width: 1920px;
-  height: 1080px;
+body {
   overflow-x: hidden;
-} */
+}
+
+
+.gridgrid {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  grid-column: col/ span 4;
+  grid-row: row 1;
+}
+.gridgrid2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  grid-column: col 5/ span 4;
+  grid-row: row 1;
+}
+.gridgrid3 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  grid-column: col 9/ span 4;
+  grid-row: row 1;
+}
+
+.gridd2,
+.gridd3,
+.gridd4,
+.gridd6,
+.gridd7 {
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  padding: inherit;
+  margin: auto;
+}
+
+.gridd1,
+.gridd8 {
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  padding: inherit;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.gridd5 {
+  font-size: calc(1em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  color: #676329;
+  padding: inherit;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.gridd2:hover {
+  font-size: calc(0.8em + 0.5vw);
+  color: #676329;
+  transition: 0.5s;
+}
+
+.gridd2:not(:hover) {
+  transition: 0.5s;
+}
+
+.gridd3:hover {
+  font-size: calc(0.8em + 0.5vw);
+  color: #676329;
+  transition: 0.5s;
+}
+
+.gridd3:not(:hover) {
+  transition: 0.5s;
+}
+
+.gridd4:hover {
+  font-size: calc(0.8em + 0.5vw);
+  color: #676329;
+  transition: 0.5s;
+}
+
+.gridd14:not(:hover) {
+  transition: 0.5s;
+}
+
+.gridd6:hover {
+  font-size: calc(0.8em + 0.5vw);
+  color: #676329;
+  transition: 0.5s;
+}
+
+.gridd6:not(:hover) {
+  transition: 0.5s;
+}
+
+.gridd7:hover {
+  font-size: calc(0.8em + 0.5vw);
+  color: #676329;
+  transition: 0.5s;
+}
+
+.gridd7:not(:hover) {
+  transition: 0.5s;
+}
+
+.gridd8:hover {
+  font-size: calc(0.8em + 0.5vw);
+  color: #676329;
+  transition: 0.5s;
+}
+
+.gridd7:not(:hover) {
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 div {
@@ -13,6 +176,17 @@ div {
   -khtml-user-select: none;
   user-select: none;
   /* transition: 1s; */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-template-rows: repeat(6, [row] auto);
+  grid-column-gap: 1em;
+  margin-top: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
 .grid1,
@@ -28,6 +202,10 @@ div {
   margin-left: 3em;
   margin-right: 3em;
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+.grid1 {
+  margin-top: 1em;
 }
 
 .grid2,
