@@ -1,0 +1,74 @@
+@import "reset.css";
+
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-template-rows: repeat(2, [row] auto);
+  grid-column-gap: 1em;
+  margin-top: 7em;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+.grid2 {
+  grid-row-gap: 5em;
+}
+
+.grid2 {
+  margin-top: 7em;
+}
+
+.grid__item {
+  background: rgba(255, 65, 46, 0);
+  padding: 1em;
+}
+
+.grid__item_item-v1,
+.grid__item_item-v2,
+.grid__item_item-v3 {
+  grid-row: row;
+  padding: 0.1em;
+  font-size: calc(1em + 0.75vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+}
+
+.grid__item_item-v1 {
+  grid-column: col/ span 4;
+}
+
+/* ГОСТИ */
+.grid__item_item-v2 {
+  grid-column: col 5/ span 4;
+}
+
+/* ТЕМА */
+.grid__item_item-v3 {
+  grid-column: col 9 / span 4;
+}
+
+.vv4 {
+  grid-column: col/ span 4;
+  grid-row: row 2;
+}
+
+.vv6 {
+  grid-column: col 5/ span 4;
+  grid-row: row 2;
+}
+
+.vv8 {
+  grid-column: col 9/ span 4;
+  grid-row: row 2;
+}
+
+.grid__item_item-v4,
+.grid__item_item-v6,
+.grid__item_item-v8 {
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  padding: inherit;
+  letter-spacing: 0.02em;
+  width: auto;
+  display: inline-block;
+}
