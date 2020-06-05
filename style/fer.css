@@ -11,27 +11,64 @@ body {
   align-items: flex-end;
   justify-content: center;
   grid-column: col/ span 4;
-  grid-row: row 1;
+  grid-row: row;
 }
 .gridgrid2 {
   display: flex;
   align-items: flex-end;
   justify-content: center;
   grid-column: col 5/ span 4;
-  grid-row: row 1;
+  grid-row: row;
 }
 .gridgrid3 {
   display: flex;
   align-items: flex-end;
   justify-content: center;
   grid-column: col 9/ span 4;
-  grid-row: row 1;
+  grid-row: row;
 }
 
-.gridd2,
+.gridgrid4 {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+  grid-column: col/ span 4;
+  grid-row: row 2;
+}
+.gridgrid5 {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+  grid-column: col 5/ span 4;
+  grid-row: row 2;
+}
+
+.gridgrid6 {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+  grid-column: col 9/ span 4;
+  grid-row: row 2;
+}
+.gridgrid7 {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+  grid-column: col/ span 4;
+  grid-row: row 3;
+}
+
+.gridgrid8 {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+  grid-column: col 5/ span 4;
+  grid-row: row 3;
+}
+
+.gridgrid9 {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+  grid-column: col 9/ span 4;
+  grid-row: row 3;
+}
+
 .gridd3,
-.gridd4,
-.gridd6,
 .gridd7 {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
@@ -39,11 +76,21 @@ body {
   margin: auto;
 }
 
-.gridd1,
-.gridd8 {
+.gridd2 {
   font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   padding: inherit;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.gridd1,
+.gridd4,
+.gridd6,
+.gridd8 {
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -119,6 +166,16 @@ body {
 }
 
 
+.ggg1,
+.ggg2,
+.ggg3,
+.ggg4,
+.ggg5,
+.ggg6 {
+  background: #000;
+  width: 100%;
+  height: 2px;
+}
 
 
 
