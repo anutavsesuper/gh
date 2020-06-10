@@ -1,0 +1,172 @@
+@import "reset.css";
+
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-template-rows: repeat(6, [row] auto);
+  grid-column-gap: 1em;
+  margin-top: 7em;
+  margin-left: 3em;
+  margin-right: 3em;
+  grid-row-gap: 1em;
+}
+
+
+.grid__item {
+  background: rgba(255, 65, 46, 0);
+  padding: 1em;
+}
+
+.grid__item_item-o1 {
+  grid-column: col/ span 4;
+  grid-row: row;
+  padding: 0.1em;
+  font-size: calc(1em + 0.75vw);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-style: normal; font-variant: normal;
+}
+
+.grid__item_item-o2,
+.grid__item_item-o3,
+.grid__item_item-o4,
+.grid__item_item-o11,
+.grid__item_item-o12,
+.grid__item_item-o13 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-style: italic; font-variant: normal;
+  padding: inherit;
+  margin-top: 4em;
+}
+
+.oo5,
+.oo7,
+.oo9,
+.oo14,
+.oo16,
+.oo18 {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.oo2 {
+  grid-column: col/ span 4;
+  grid-row: row 2;
+}
+.oo3 {
+  grid-column: col 5/ span 4;
+  grid-row: row 2;
+}
+.oo4 {
+  grid-column: col 9/ span 4;
+  grid-row: row 2;
+}
+.oo5 {
+  grid-column: col/ span 4;
+  grid-row: row 3;
+}
+.oo7 {
+  grid-column: col 5/ span 4;
+  grid-row: row 3;
+}
+.oo9 {
+  grid-column: col 9/ span 4;
+  grid-row: row 3;
+}
+.oo11 {
+  grid-column: col/ span 4;
+  grid-row: row 4;
+}
+.oo12 {
+  grid-column: col 5/ span 4;
+  grid-row: row 4;
+}
+.oo13 {
+  grid-column: col 9/ span 4;
+  grid-row: row 4;
+}
+.oo14 {
+  grid-column: col/ span 4;
+  grid-row: row 5;
+}
+.oo16 {
+  grid-column: col 5/ span 4;
+  grid-row: row 5;
+}
+.oo18 {
+  grid-column: col 9/ span 4;
+  grid-row: row 5;
+}
+.oo19 {
+  grid-column: col/ span 4;
+  grid-row: row 6;
+}
+.oo20 {
+  margin-top: 4em;
+  grid-column: col 5/ span 4;
+  grid-row: row 6;
+  border: 2px solid #000000;
+  background: #2A2911;
+}
+.oo20:hover {
+  background: #676329;
+}
+.oo21 {
+  grid-column: col 9/ span 4;
+  grid-row: row 6;
+}
+
+
+input {
+  width: 100%;
+  height: 3em;
+  border: 2px solid #000000;
+  background: transparent;
+  outline-color: #676329;
+}
+
+.oo19 {
+  height: 3em;
+}
+
+.grid__item_item-o20 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-style: italic; font-variant: normal;
+  font-size: calc(0.5em + 0.5vw);
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.ooo20:hover {
+  background: #676329;
+}
+
+
+.grid__item_item-o6,
+.grid__item_item-o8,
+.grid__item_item-o10,
+.grid__item_item-o15,
+.grid__item_item-o17,
+.grid__item_item-o19 {
+  font-size: calc(0.5em + 0.5vw);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-style: normal; font-variant: normal;
+  padding: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ]]] */

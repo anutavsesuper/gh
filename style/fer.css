@@ -17,6 +17,7 @@
 
 .grid1 {
   margin-top: 1em;
+  grid-template-rows: repeat(4, [row] auto);
 }
 
 .grid2,
@@ -33,6 +34,10 @@
 .grid1,
 .grid3 {
   grid-row-gap: 0.5em;
+}
+
+.grid3 {
+  grid-template-rows: repeat(5, [row] auto);
 }
 
 .grid4 {
@@ -86,7 +91,7 @@
   grid-row: row;
   padding: 0.1em;
   font-size: calc(1em + 0.75vw);
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .grid__item_item-v1 {
@@ -238,7 +243,7 @@
   padding: inherit;
   width: auto;
   display: inline-block;
-    margin-bottom: -8px;
+  margin-bottom: -8px;
 }
 
 .grid__item_item-v5,
@@ -257,7 +262,7 @@
 .grid__item_item-v31,
 .grid__item_item-v33 {
   font-size: calc(0.5em + 0.5vw);
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   padding: inherit;
 }
 
@@ -291,7 +296,7 @@
   grid-row: row / span 1;
   padding: 0.1em;
   font-size: calc(1em + 0.75vw);
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .mm2,
@@ -443,7 +448,7 @@
 .grid__item_item-m31,
 .grid__item_item-m33 {
   font-size: calc(0.5em + 0.5vw);
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   padding: inherit;
 }
 

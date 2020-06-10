@@ -11,12 +11,9 @@
   margin-right: 3em;
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
-.grid2 {
-  grid-row-gap: 5em;
-}
 
 .grid2 {
-  margin-top: 7em;
+  grid-row-gap: 5em;
 }
 
 .grid__item {

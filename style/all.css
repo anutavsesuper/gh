@@ -42,13 +42,16 @@ body {
 .grid5 {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
-  grid-template-rows: repeat(6, [row] auto);
+  grid-template-rows: repeat(2, [row] auto);
   grid-column-gap: 1em;
-  margin-top: 7em;
+  grid-row-gap: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
   margin-left: 3em;
   margin-right: 3em;
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-  margin-bottom: 7em;
+  line-height: 1.5em;
+  font-size: calc(0.35em + 0.35vw);
 }
 
 
@@ -292,7 +295,6 @@ body {
 }
 
 .grid__item_item-p3 {
-  font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: center;
 }
@@ -304,7 +306,6 @@ body {
 }
 
 .grid__item_item-p4 {
-  font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: center;
 }
@@ -316,7 +317,6 @@ body {
 }
 
 .grid__item_item-p5 {
-  font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: center;
 }
@@ -328,7 +328,6 @@ body {
 }
 
 .grid__item_item-p6 {
-  font-size: calc(0.5em + 0.5vw);
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: center;
 }
