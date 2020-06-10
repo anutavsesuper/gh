@@ -13,6 +13,8 @@
 }
 
 
+
+
 .grid__item {
   background: rgba(255, 65, 46, 0);
   padding: 1em;
@@ -122,6 +124,7 @@ input {
   border: 2px solid #000000;
   background: transparent;
   outline-color: #676329;
+  text-align: center;
 }
 
 .oo19 {

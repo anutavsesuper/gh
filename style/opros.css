@@ -115,6 +115,7 @@
 }
 .ooo5:hover {
  background: linear-gradient(to right, #676329 15%, #FFFFFF 15%);
+  transition: 0.5s;
 }
 
 
@@ -142,9 +143,10 @@
 .ooo7 {
  background: linear-gradient(to right, #2A2911 65%, #FFFFFF 65%);
 }
-.ooo7:hover {
+/* .ooo7:hover {
  background: linear-gradient(to right, #676329 65%, #FFFFFF 65%);
-}
+  transition: 0.5s;
+} */
 
 .o7 {
   background: #000;
@@ -158,9 +160,10 @@
 .ooo9 {
  background: linear-gradient(to right, #2A2911 25%, #FFFFFF 25%);
 }
-.ooo9:hover {
+/* .ooo9:hover {
  background: linear-gradient(to right, #676329 25%, #FFFFFF 25%);
-}
+  transition: 0.5s;
+} */
 
 .o9 {
   background: #000;
@@ -175,9 +178,10 @@
 .ooo14 {
  background: linear-gradient(to right, #2A2911 80%, #FFFFFF 80%);
 }
-.ooo14:hover {
+/* .ooo14:hover {
  background: linear-gradient(to right, #676329 80%, #FFFFFF 80%);
-}
+  transition: 0.5s;
+} */
 
 .o14 {
   background: #000;
@@ -192,9 +196,10 @@
 .ooo16 {
  background: linear-gradient(to right, #2A2911 35%, #FFFFFF 35%);
 }
-.ooo16:hover {
+/* .ooo16:hover {
  background: linear-gradient(to right, #676329 35%, #FFFFFF 35%);
-}
+  transition: 0.5s;
+} */
 
 .o16 {
   background: #000;
@@ -208,9 +213,10 @@
 .ooo18 {
  background: linear-gradient(to right, #2A2911 20%, #FFFFFF 20%);
 }
-.ooo18:hover {
+/* .ooo18:hover {
  background: linear-gradient(to right, #676329 20%, #FFFFFF 20%);
-}
+  transition: 0.5s;
+} */
 
 .o18 {
   background: #000;
@@ -221,13 +227,28 @@
   margin-bottom: 2px;
 }
 
+/* .ooo5:not(:hover) {
+  transition: 0.5s;
+}
 
+.ooo7:not(:hover) {
+  transition: 0.5s;
+}
 
+.ooo9:not(:hover) {
+  transition: 0.5s;
+}
 
+.ooo14:not(:hover) {
+  transition: 0.5s;
+}
 
-
-
-
+.ooo16:not(:hover) {
+  transition: 0.5s;
+}
+.ooo18:not(:hover) {
+  transition: 0.5s;
+} */
 
 
 
