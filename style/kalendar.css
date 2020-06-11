@@ -1,7 +1,6 @@
 @import "reset.css";
 
 
-
 .grid4 {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
@@ -40,7 +39,7 @@
   grid-row: row / span 1;
   padding: 0.1em;
   font-size: calc(1em + 0.75vw);
-  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-family: "ArialRegular";
 }
 
 .mm2,
@@ -271,7 +270,7 @@
   background: #676329;
 }
 .grid__item_item-mm50 {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-style: italic; font-variant: normal;
+  font-family: "ArialItalic";
   font-size: calc(0.5em + 0.5vw);
   color: #FFFFFF;
   text-align: center;

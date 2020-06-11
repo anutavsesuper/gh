@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "font.css";
 
 
 .grid1 {
@@ -104,7 +105,7 @@
 .ooo16,
 .ooo18 {
   width: 70%;
-  height: 5em;
+  height: 3vw;
   border: 2px solid #000000;
   margin-right: 5px;
 }
