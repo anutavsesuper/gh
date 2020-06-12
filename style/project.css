@@ -3,7 +3,7 @@
 .gridpro {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
-  grid-template-rows: repeat(10, [row] auto);
+  grid-template-rows: repeat(9, [row] auto);
   grid-column-gap: 1em;
   margin-top: 7em;
   margin-left: 3em;
@@ -56,19 +56,19 @@
 }
 
 .r1 {
-  grid-column: col 7/ span 2;
+  grid-column: col 1/ span 4;
   grid-row: row 2;
   text-align: center;
 }
 
 .r2 {
-  grid-column: col 9/ span 2;
+  grid-column: col 5/ span 4;
   grid-row: row 2;
   text-align: center;
 }
 
 .r3 {
-  grid-column: col 11/ span 2;
+  grid-column: col 9/ span 4;
   grid-row: row 2;
   text-align: center;
 }
@@ -77,19 +77,19 @@
 
 
 .r4 {
-  grid-column: col 1/ span 2;
+  grid-column: col 1/ span 3;
   grid-row: row 3;
   text-align: center;
 }
 
 .r5 {
-  grid-column: col 3/ span 2;
+  grid-column: col 4/ span 3;
   grid-row: row 3;
   text-align: center;
 }
 
 .r6 {
-  grid-column: col 5/ span 2;
+  grid-column: col 7/ span 3;
   grid-row: row 3;
   text-align: center;
 }

@@ -55,8 +55,8 @@
   grid-row: row;
   padding: 0.00001em;;
   font-size: calc(1em + 10vw);
-  color: #FFF;
-  -webkit-text-fill-color: #FFF;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
   -webkit-text-stroke: 2px black;
 }
 
