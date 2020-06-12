@@ -5,7 +5,7 @@
 .grid1 {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
-  grid-template-rows: repeat(6, [row] auto);
+  grid-template-rows: repeat(5, [row] auto);
   grid-column-gap: 1em;
   margin-top: 7em;
   margin-left: 3em;
@@ -24,7 +24,7 @@
   grid-row: row;
   padding: 0.1em;
   font-size: calc(1em + 0.75vw);
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: "ArialRegular";
 }
 
 .grid__item_item-o2,
@@ -33,7 +33,7 @@
 .grid__item_item-o11,
 .grid__item_item-o12,
 .grid__item_item-o13 {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-style: italic; font-variant: normal;
+  font-family: "ArialBoldItalic";
   padding: inherit;
   margin-top: 4em;
 }
@@ -136,7 +136,7 @@
 .grid__item_item-o17,
 .grid__item_item-o19 {
   font-size: calc(0.5em + 0.5vw);
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: "ArialRegular";
   padding: inherit;
 }
 
@@ -259,3 +259,50 @@
 
 
 /* ]]] */
+
+
+
+
+@media screen and (max-width: 1025px){
+  .grid1 {
+    margin-top: 4em;
+    grid-row-gap: 2em;
+  }
+
+  .grid__item_item-o1 {
+    font-size: calc(0.5em + 0.75vw);
+  }
+
+  .grid__item_item-o2, .grid__item_item-o3, .grid__item_item-o4, .grid__item_item-o11, .grid__item_item-o12, .grid__item_item-o13 {
+    margin-top: 2em;
+    font-size: calc(0.4em + 0.4vw);
+  }
+
+  .grid__item_item-o6, .grid__item_item-o8, .grid__item_item-o10, .grid__item_item-o15, .grid__item_item-o17, .grid__item_item-o19 {
+    font-size: calc(0.4em + 0.4vw);
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+  .grid1 {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+
+  .grid__item_item-o1 {
+    font-size: calc(0.8em + 0.75vw);
+  }
+
+  .grid__item_item-o2, .grid__item_item-o3, .grid__item_item-o4, .grid__item_item-o11, .grid__item_item-o12, .grid__item_item-o13 {
+    font-size: calc(0.8em + 0.4vw);
+  }
+
+  .grid__item_item-o6, .grid__item_item-o8, .grid__item_item-o10, .grid__item_item-o15, .grid__item_item-o17, .grid__item_item-o19 {
+    font-size: calc(0.8em + 0.4vw);
+  }
+}

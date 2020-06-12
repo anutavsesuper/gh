@@ -380,3 +380,11 @@ canvas {
   font-family: "Arial Regular", Gadget, sans-serif;
   text-align: center;
 }
+
+
+@media screen and (max-width: 650px) {
+  .grid5 {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+}

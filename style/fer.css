@@ -602,3 +602,188 @@
 
 
 /* // */
+
+
+
+@media screen and (max-width: 1025px) {
+
+  .grid2, .grid3, .grid4 {
+    margin-top: 4em;
+  }
+
+  .grid2, .grid4 {
+    grid-row-gap: 2em;
+  }
+
+  /* текст наверху */
+  .grid__item_item-v1,
+  .grid__item_item-v2,
+  .grid__item_item-v3 {
+    font-size: calc(0.5em + 0.75vw);
+  }
+
+  /* время */
+  .grid__item_item-v4,
+  .grid__item_item-v10,
+  .grid__item_item-v16,
+  .grid__item_item-v22,
+  .grid__item_item-v28 {
+    font-size: calc(2em + 1.1vw);
+  }
+
+  .grid__item_item-v5, .grid__item_item-v7, .grid__item_item-v9, .grid__item_item-v11, .grid__item_item-v13, .grid__item_item-v15, .grid__item_item-v17, .grid__item_item-v19, .grid__item_item-v21, .grid__item_item-v23, .grid__item_item-v25, .grid__item_item-v27, .grid__item_item-v29, .grid__item_item-v31, .grid__item_item-v33 {
+    font-size: calc(0.4em + 0.4vw);
+  }
+
+  .grid__item_item-v6, .grid__item_item-v8, .grid__item_item-v12, .grid__item_item-v14, .grid__item_item-v18, .grid__item_item-v20, .grid__item_item-v24, .grid__item_item-v26, .grid__item_item-v30, .grid__item_item-v32 {
+    font-size: calc(0.5em + 1.1vw);
+  }
+
+  .grid__item_item-h6, .grid__item_item-h7, .grid__item_item-h8, .grid__item_item-h9, .grid__item_item-h10 {
+    font-size: calc(0.5em + 1.1vw);
+  }
+
+  .grid__item_item-m1 {
+    font-size: calc(0.5em + 0.75vw);
+  }
+
+  .grid__item_item-m2, .grid__item_item-m4, .grid__item_item-m6, .grid__item_item-m8, .grid__item_item-m10, .grid__item_item-m12, .grid__item_item-m14, .grid__item_item-m16, .grid__item_item-m18, .grid__item_item-m20, .grid__item_item-m22, .grid__item_item-m24, .grid__item_item-m26, .grid__item_item-m28, .grid__item_item-m30, .grid__item_item-m32 {
+    font-size: calc(2em + 1.1vw);
+  }
+
+  .grid__item_item-m3, .grid__item_item-m5, .grid__item_item-m7, .grid__item_item-m9, .grid__item_item-m11, .grid__item_item-m13, .grid__item_item-m15, .grid__item_item-m17, .grid__item_item-m19, .grid__item_item-m21, .grid__item_item-m23, .grid__item_item-m25, .grid__item_item-m27, .grid__item_item-m29, .grid__item_item-m31, .grid__item_item-m33 {
+    font-size: calc(0.4em + 0.4vw);
+  }
+
+ /* текст */
+  .grid__item_item-mm32 {
+    font-size: calc(0.4em + 0.4vw);
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+
+  .grid__item_item1,
+  .grid__item_item2,
+  .grid__item_item3,
+  .grid__item_item4,
+  .grid__item_item-h1, .grid__item_item-h2, .grid__item_item-h3, .grid__item_item-h4, .grid__item_item-h5 {
+    font-size: calc(0.7em + 10vw)
+  }
+
+  .grid1, .grid2, .grid3, .grid4 {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+.vv4, .vv6, .vv8, .vv10, .vv12, .vv14, .vv16, .vv18, .vv20, .vv22, .vv24, .vv26, .vv28, .vv30, .vv32 {
+  display: block;
+}
+
+.mm2, .mm4, .mm6, .mm8, .mm10, .mm12, .mm14, .mm16, .mm18, .mm20, .mm22, .mm24, .mm26, .mm28, .mm30, .mm31, .mm32, .mm33 {
+  display: block;
+}
+
+.grid__item_item-m3, .grid__item_item-m5, .grid__item_item-m7, .grid__item_item-m9, .grid__item_item-m11, .grid__item_item-m13, .grid__item_item-m15, .grid__item_item-m17, .grid__item_item-m19, .grid__item_item-m21, .grid__item_item-m23, .grid__item_item-m25, .grid__item_item-m27, .grid__item_item-m29, .grid__item_item-m31, .grid__item_item-m33, .grid__item_item-mm32 {
+  margin-top: 0.5em;
+  font-size: calc(0.8em + 0.4vw);
+}
+
+.vvv4, .vvv6, .vvv8, .vvv10, .vvv12, .vvv14, .vvv16, .vvv18, .vvv20, .vvv22, .vvv24, .vvv26, .vvv28, .vvv30, .vvv32, .mmm2, .mmm4, .mmm6, .mmm8, .mmm10, .mmm12, .mmm14, .mmm16, .mmm18 {
+  display: none;
+}
+
+.mmm20, .mmm22, .mmm24, .mmm26, .mmm28, .mmm30, .mmm32 {
+  display: none;
+}
+
+/* верхний текст  */
+.grid__item_item-v1, .grid__item_item-v2, .grid__item_item-v3, .grid__item_item-m1 {
+  font-size: calc(0.8em + 0.75vw);
+}
+
+/* куратоп */
+.grid__item_item-v5, .grid__item_item-v7, .grid__item_item-v9, .grid__item_item-v11, .grid__item_item-v13, .grid__item_item-v15, .grid__item_item-v17, .grid__item_item-v19, .grid__item_item-v21, .grid__item_item-v23, .grid__item_item-v25, .grid__item_item-v27, .grid__item_item-v29, .grid__item_item-v31, .grid__item_item-v33 {
+  margin-top: 0.5em;
+  font-size: calc(0.8em + 0.4vw);
+}
+
+/* имя */
+.grid__item_item-v6, .grid__item_item-v8, .grid__item_item-v12, .grid__item_item-v14, .grid__item_item-v18, .grid__item_item-v20, .grid__item_item-v24, .grid__item_item-v26, .grid__item_item-v30, .grid__item_item-v32, .grid__item_item-h6, .grid__item_item-h7, .grid__item_item-h8, .grid__item_item-h9, .grid__item_item-h10 {
+  font-size: calc(0.8em + 1.1vw);
+}
+
+.mm33 {
+  grid-column: col 5/ span 8;
+}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+  /* имя */
+.grid__item_item-v6, .grid__item_item-v8, .grid__item_item-v12, .grid__item_item-v14, .grid__item_item-v18, .grid__item_item-v20, .grid__item_item-v24, .grid__item_item-v26, .grid__item_item-v30, .grid__item_item-v32, .grid__item_item-h6, .grid__item_item-h7, .grid__item_item-h8, .grid__item_item-h9, .grid__item_item-h10 {
+  font-size: calc(0.5em + 1.1vw);
+}
+
+/* ыремя */
+.grid__item_item-v4, .grid__item_item-v10, .grid__item_item-v16, .grid__item_item-v22, .grid__item_item-v28 {
+  font-size: calc(1.3em + 1.1vw);
+}
+
+/* текст */
+.grid__item_item-v5, .grid__item_item-v7, .grid__item_item-v9, .grid__item_item-v11, .grid__item_item-v13, .grid__item_item-v15, .grid__item_item-v17, .grid__item_item-v19, .grid__item_item-v21, .grid__item_item-v23, .grid__item_item-v25, .grid__item_item-v27, .grid__item_item-v29, .grid__item_item-v31, .grid__item_item-v33 {
+    font-size: calc(0.6em + 0.4vw);
+}
+
+/* сверху */
+.grid__item_item-v1, .grid__item_item-v2, .grid__item_item-v3, .grid__item_item-m1 {
+    font-size: calc(0.6em + 0.75vw);
+  }
+
+  .grid__item_item-m3, .grid__item_item-m5, .grid__item_item-m7, .grid__item_item-m9, .grid__item_item-m11, .grid__item_item-m13, .grid__item_item-m15, .grid__item_item-m17, .grid__item_item-m19, .grid__item_item-m21, .grid__item_item-m23, .grid__item_item-m25, .grid__item_item-m27, .grid__item_item-m29, .grid__item_item-m31, .grid__item_item-m33, .grid__item_item-mm32{
+    font-size: calc(0.6em + 0.4vw);
+  }
+
+  .grid__item_item-m2, .grid__item_item-m4, .grid__item_item-m6, .grid__item_item-m8, .grid__item_item-m10, .grid__item_item-m12, .grid__item_item-m14, .grid__item_item-m16, .grid__item_item-m18, .grid__item_item-m20, .grid__item_item-m22, .grid__item_item-m24, .grid__item_item-m26, .grid__item_item-m28, .grid__item_item-m30, .grid__item_item-m32 {
+    font-size: calc(1.3em + 1.1vw);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* '' */
