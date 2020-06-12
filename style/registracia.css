@@ -125,6 +125,9 @@ input {
   background: transparent;
   outline-color: #676329;
   text-align: center;
+  font-family: "ArialBlack";
+  font-size: calc(0.5em + 0.5vw);
+  /* text-transform: uppercase; */
 }
 
 .oo19 {
