@@ -176,12 +176,22 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .grid__item_item-r1 {
+    font-size: calc(0.8em + 0.75vw);
+  }
+}
+
 @media screen and (max-width: 650px) {
   .gridpro {
     margin-left: 1.5em;
     margin-right: 1.5em;
   }
+}
 
+
+@media screen and (max-width: 450px) {
   .grid__item_item-r1 {
-    font-size: calc(0.8em + 0.75vw);
+    font-size:  calc(1em + 0.75vw);
   }
+}
