@@ -1,0 +1,390 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "ArialRegular";
+  src: url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "ArialBold"; */
+@font-face {
+  font-family: "ArialBold";
+  src: url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "ArialItalic"; */
+@font-face {
+  font-family: "ArialItalic";
+  src: url("../fonts/ArialItalic/ArialItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "ArialBlack"; */
+@font-face {
+  font-family: "ArialBlack";
+  src: url("../fonts/ArialBlack/ArialBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "ArialBoldItalic"; */
+@font-face {
+  font-family: "ArialBoldItalic";
+  src: url("../fonts/ArialBoldItalic/ArialBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  color: black;
+}
+
+a:hover {
+  color: #676329;
+  transition: 0.5s;
+}
+
+a:not(:hover) {
+  transition: 0.5s;
+}
+
+div {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  /* transition: 1s; */
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #FFF;
+}
+
+canvas {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  display: block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-template-rows: repeat(6, [row] auto);
+  grid-column-gap: 1em;
+  margin-top: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-family: "ArialBlack";
+}
+
+.grid5 {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-template-rows: repeat(2, [row] auto);
+  grid-column-gap: 1em;
+  grid-row-gap: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-family: "ArialBlack";
+  line-height: 1.5em;
+  font-size: calc(0.35em + 0.35vw);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gridgrid {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  grid-column: col/ span 4;
+  grid-row: row;
+}
+.gridgrid2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  grid-column: col 5/ span 4;
+  grid-row: row;
+}
+.gridgrid3 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  grid-column: col 9/ span 4;
+  grid-row: row;
+}
+
+.gridgrid4 {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+  grid-column: col/ span 4;
+  grid-row: row 2;
+}
+.gridgrid5 {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+  grid-column: col 5/ span 4;
+  grid-row: row 2;
+}
+
+.gridgrid6 {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+  grid-column: col 9/ span 4;
+  grid-row: row 2;
+}
+.gridgrid7 {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+  grid-column: col/ span 4;
+  grid-row: row 3;
+}
+
+.gridgrid8 {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+  grid-column: col 5/ span 4;
+  grid-row: row 3;
+}
+
+.gridgrid9 {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+  grid-column: col 9/ span 4;
+  grid-row: row 3;
+}
+
+.gridd3,
+.gridd7 {
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  padding: inherit;
+  margin: auto;
+}
+
+.gridd2 {
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  padding: inherit;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.gridd1,
+.gridd4,
+.gridd6,
+.gridd8 {
+  font-size: calc(0.5em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.gridd5 {
+  font-size: calc(1em + 0.5vw);
+  font-family: "Arial Regular", Gadget, sans-serif;
+  color: #676329;
+  padding: inherit;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.gridd2:hover {
+  font-size: calc(0.8em + 0.5vw);
+  color: #676329;
+}
+
+.gridd3:hover {
+  font-size: calc(0.8em + 0.5vw);
+  color: #676329;
+}
+
+.gridd4:hover {
+  font-size: calc(0.8em + 0.5vw);
+  color: #676329;
+}
+
+.gridd6:hover {
+  font-size: calc(0.8em + 0.5vw);
+  color: #676329;
+}
+
+.gridd7:hover {
+  font-size: calc(0.8em + 0.5vw);
+  color: #676329;
+}
+
+.gridd8:hover {
+  font-size: calc(0.8em + 0.5vw);
+  color: #676329;
+}
+
+
+.ggg1,
+.ggg2,
+.ggg3,
+.ggg4,
+.ggg5,
+.ggg6 {
+  background: #000;
+  width: 100%;
+  height: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p1 {
+  grid-column: col/ span 4;
+  grid-row: row 1;
+  padding: 0.00001em;
+}
+
+.p2 {
+  grid-column: col 5/ span 4;
+  grid-row: row 1;
+  padding: 0.00001em;
+}
+
+.p3 {
+  grid-column: col 9/ span 4;
+  grid-row: row 1;
+  padding: 0.00001em;
+}
+
+.grid__item_item-p3 {
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: center;
+}
+
+.p4 {
+  grid-column: col/ span 4;
+  grid-row: row 2;
+  padding: 0.00001em;
+}
+
+.grid__item_item-p4 {
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: center;
+}
+
+.p5 {
+  grid-column: col 5/ span 4;
+  grid-row: row 2;
+  padding: 0.00001em;
+}
+
+.grid__item_item-p5 {
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: center;
+}
+
+.p6 {
+  grid-column: col 9/ span 4;
+  grid-row: row 2;
+  padding: 0.00001em;
+}
+
+.grid__item_item-p6 {
+  font-family: "Arial Regular", Gadget, sans-serif;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 650px) {
+  .grid5 {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+}
