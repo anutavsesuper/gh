@@ -114,10 +114,10 @@
 .ooo5 {
  background: linear-gradient(to right, #2A2911 15%, #FFFFFF 15%);
 }
-.ooo5:hover {
+/* .ooo5:hover {
  background: linear-gradient(to right, #676329 15%, #FFFFFF 15%);
   transition: 0.5s;
-}
+} */
 
 
 .o5 {
@@ -288,6 +288,25 @@
 @media screen and (max-width: 800px) {
   .grid__item_item-o1 {
     font-size: calc(0.8em + 0.75vw);
+  }
+
+  .oo5, .oo7, .oo9, .oo14, .oo16, .oo18 {
+    display: block;
+  }
+
+  .o5, .o7, .o9, .o14, .o16, .o18 {
+    display: none;
+  }
+
+  .grid__item_item-o6, .grid__item_item-o8, .grid__item_item-o10, .grid__item_item-o15, .grid__item_item-o17, .grid__item_item-o19 {
+    margin-top: 0.5em;
+  }
+
+  .ooo5, .ooo7, .ooo9, .ooo14, .ooo16, .ooo18 {
+    width: 100%;
+    height: 4vw;
+    border: 1px solid #000000;
+    margin-right: inherit;
   }
 
   .grid1 {
