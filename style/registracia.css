@@ -34,7 +34,7 @@
 .grid__item_item-o11,
 .grid__item_item-o12,
 .grid__item_item-o13 {
-  font-family: "ArialBoldItalic";
+  font-family: "ArialItalic";
   padding: inherit;
   margin-top: 4em;
 }
@@ -135,7 +135,7 @@ input {
 }
 
 .grid__item_item-o20 {
-  font-family: "ArialBoldItalic";
+  font-family: "ArialItalic";
   font-size: calc(0.5em + 0.5vw);
   color: #FFFFFF;
   text-align: center;
