@@ -60,7 +60,6 @@ div {
   -moz-user-select: none;
   -khtml-user-select: none;
   user-select: none;
-  /* transition: 1s; */
 }
 
 body {
