@@ -32,7 +32,7 @@
 }
 
 .grid__item_item-v1 {
-  grid-column: col/ span 4;
+  grid-column: col 1/ span 4;
 }
 
 /* ГОСТИ */
@@ -96,30 +96,75 @@
 }
 
 @media screen and (max-width: 800px) {
-  .grid__item_item-v1, .grid__item_item-v2, .grid__item_item-v3 {
-font-size: calc(0.8em + 0.75vw);
-}
-}
 
-@media screen and (max-width: 650px) {
   .grid2 {
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    grid-template-rows: repeat(6, [row] auto);
+}
+  /* ГОСТИ */
+  .grid__item_item-v1 {
+    font-size: calc(0.8em + 0.75vw);
+  }
+  .vv4 {
+    grid-column: col/ span 6;
+    grid-row: row 2;
+    font-size: calc(1em + 0.4vw);
+  }
+
+  /* ГОСТИ */
+  .grid__item_item-v2 {
+    font-size: calc(0.8em + 0.75vw);
+    grid-column: col 7/ span 6;
+    grid-row: row 3;
+  }
+  .vv6 {
+    grid-column: col 7/ span 6;
+    grid-row: row 4;
+    font-size: calc(1em + 0.4vw);
+  }
+
+
+  /* ТЕМА */
+  .grid__item_item-v3 {
+    font-size: calc(0.8em + 0.75vw);
+    grid-column: col/ span 12;
+    grid-row: row 5;
+  }
+  .vv8 {
+    grid-column: col/ span 6;
+    grid-row: row 6;
+    font-size: calc(1em + 0.4vw);
   }
 }
 
-@media screen and (max-width: 450px) {
-  .grid__item_item-v1, .grid__item_item-v2, .grid__item_item-v3 {
-    font-size: calc(1em + 0.75vw);
+@media screen and (max-width: 400px) {
+  /* ГОСТИ */
+  .grid__item_item-v1 {
+    font-size: calc(0.8em + 0.75vw);
+    grid-column: col/ span 12;
+  }
+  .vv4 {
+    grid-column: col/ span 12;
+    grid-row: row 2;
   }
 
-  .grid__item_item-v4, .grid__item_item-v6, .grid__item_item-v8 {
-    font-size: calc(0.7em + 0.4vw);
+  /* ГОСТИ */
+  .grid__item_item-v2 {
+    grid-column: col/ span 12;
+    grid-row: row 3;
   }
-}
+  .vv6 {
+    grid-column: col/ span 12;
+    grid-row: row 4;
+  }
 
-@media screen and (max-width: 450px) {
-  .grid__item_item-v4, .grid__item_item-v6, .grid__item_item-v8 {
-    font-size: calc(0.5em + 0.4vw);
+
+  /* ТЕМА */
+  .grid__item_item-v3 {
+    grid-column: col/ span 12;
+    grid-row: row 5;
+  }
+  .vv8 {
+    grid-column: col/ span 12;
+    grid-row: row 6;
   }
 }

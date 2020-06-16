@@ -4,7 +4,6 @@
   transition: 1s;
 } */
 
-.grid1,
 .grid2,
 .grid3,
 .grid4 {
@@ -21,6 +20,13 @@
 .grid1 {
   margin-top: 1em;
   grid-template-rows: repeat(4, [row] auto);
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-column-gap: 1em;
+  margin-top: 7em;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-family: "ArialBlack";
 }
 
 .grid2,
