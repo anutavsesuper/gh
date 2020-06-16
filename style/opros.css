@@ -259,7 +259,7 @@
 
 
 /* ]]] */
-@media screen and (max-width: 1920px){
+/* @media screen and (max-width: 1920px){
 }
 
 @media screen and (max-width: 1680px){
@@ -269,7 +269,7 @@
 }
 
 @media screen and (max-width: 1366px){
-}
+} */
 
 @media screen and (max-width: 1025px){
   .grid1 {
@@ -379,11 +379,11 @@
   }
 }
 
-@media screen and (max-width: 414px){
+/* @media screen and (max-width: 414px){
 }
 
 @media screen and (max-width: 375px){
 }
 
 @media screen and (max-width: 320px){
-}
+} */
