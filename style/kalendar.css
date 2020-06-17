@@ -17,7 +17,7 @@
 }
 
 .grid4 {
-  margin-top: 7em;
+  margin-top: 5em;
 }
 
 .grid4 {
@@ -287,6 +287,7 @@
 @media screen and (max-width: 1025px) {
   .grid4 {
     grid-row-gap: 2em;
+    margin-top: 4em;
   }
 
   .grid__item_item-m2, .grid__item_item-m4, .grid__item_item-m6, .grid__item_item-m8, .grid__item_item-m10, .grid__item_item-m12, .grid__item_item-m14, .grid__item_item-m16, .grid__item_item-m18, .grid__item_item-m20, .grid__item_item-m22, .grid__item_item-m24, .grid__item_item-m26, .grid__item_item-m28, .grid__item_item-m30, .grid__item_item-m32, .grid__item_item-m34, .grid__item_item-m36 {

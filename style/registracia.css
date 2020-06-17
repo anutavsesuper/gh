@@ -6,7 +6,7 @@
   grid-template-columns: repeat(12, [col] 1fr);
   grid-template-rows: repeat(6, [row] auto);
   grid-column-gap: 1em;
-  margin-top: 7em;
+  margin-top: 5em;
   margin-left: 3em;
   margin-right: 3em;
   grid-row-gap: 1em;
@@ -176,9 +176,9 @@ height: 3em;
     grid-row-gap: 2em;
   }
 
-  .grid__item_item-o1 {
+  /* .grid__item_item-o1 {
     font-size: calc(0.5em + 0.75vw);
-  }
+  } */
 
   .grid__item_item-o2, .grid__item_item-o3, .grid__item_item-o4, .grid__item_item-o11, .grid__item_item-o12, .grid__item_item-o13 {
     font-size: calc(0.8em + 0.4vw);
@@ -199,7 +199,7 @@ height: 3em;
     margin-left: 1.5em;
     margin-right: 1.5em;
     grid-template-rows: repeat(12, [row] auto);
-    grid-row-gap: 1em;
+    /* grid-row-gap: 1em; */
   }
 
   .grid__item_item-o2, .grid__item_item-o3, .grid__item_item-o4, .grid__item_item-o11, .grid__item_item-o12, .grid__item_item-o13 {

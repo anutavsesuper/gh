@@ -199,14 +199,14 @@ canvas {
 .gridd3,
 .gridd7 {
   font-size: calc(0.5em + 0.5vw);
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: "ArialRegular";
   padding: inherit;
   margin: auto;
 }
 
 .gridd2 {
   font-size: calc(0.5em + 0.5vw);
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: "ArialRegular";
   padding: inherit;
   margin-left: 1.5vw;
   margin-top: auto;
@@ -218,7 +218,7 @@ canvas {
 .gridd6,
 .gridd8 {
   font-size: calc(0.5em + 0.5vw);
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: "ArialRegular";
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -240,7 +240,7 @@ height: 40%;
 
 .gridd5 {
   font-size: calc(1em + 0.5vw);
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: "ArialRegular";
   color: #676329;
   padding: inherit;
   margin-top: auto;
@@ -343,12 +343,38 @@ height: 40%;
   grid-column: col/ span 4;
   grid-row: row 1;
   padding: 0.00001em;
+  text-align: center;
 }
+
+/* .grid__item_item-p1 {
+width: 10%;
+} */
 
 .p2 {
   grid-column: col 5/ span 4;
   grid-row: row 1;
   padding: 0.00001em;
+  display: flex;
+      align-items: flex-end;
+      justify-content: center;
+}
+.pp1,
+.pp2,
+.pp3,
+.pp4 {
+  display: inline-block;
+}
+
+.pp4{
+}
+
+.pp2 {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.pp3 {
+  margin-right: 2vw;
 }
 
 .p3 {
@@ -358,8 +384,9 @@ height: 40%;
 }
 
 .grid__item_item-p3 {
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: "ArialBlack";
   text-align: center;
+  font-size: calc(0.5em + 0.75vw);
 }
 
 .p4 {
@@ -369,7 +396,7 @@ height: 40%;
 }
 
 .grid__item_item-p4 {
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: "ArialRegular";
   text-align: center;
 }
 
@@ -380,7 +407,7 @@ height: 40%;
 }
 
 .grid__item_item-p5 {
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: "ArialRegular";
   text-align: center;
 }
 
@@ -391,7 +418,7 @@ height: 40%;
 }
 
 .grid__item_item-p6 {
-  font-family: "Arial Regular", Gadget, sans-serif;
+  font-family: "ArialRegular";
   text-align: center;
 }
 

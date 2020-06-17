@@ -7,7 +7,7 @@
   grid-template-columns: repeat(12, [col] 1fr);
   grid-template-rows: repeat(2, [row] auto);
   grid-column-gap: 1em;
-  margin-top: 7em;
+  margin-top: 5em;
   margin-left: 3em;
   margin-right: 3em;
   font-family: "ArialBlack";
@@ -28,7 +28,7 @@
   grid-row: row;
   padding: 0.1em;
   font-size: calc(1em + 0.75vw);
-  font-family: "Arial Regular";
+  font-family: "ArialRegular";
 }
 
 .grid__item_item-v1 {
