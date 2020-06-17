@@ -1,7 +1,7 @@
 @import "reset.css";
 
 /* * {
-  transition: 1s;
+transition: 1s;
 } */
 
 .grid2,
@@ -628,7 +628,7 @@ grid-row: row 6;
   /* .grid__item_item-v1,
   .grid__item_item-v2,
   .grid__item_item-v3 {
-    font-size: calc(0.5em + 0.75vw);
+  font-size: calc(0.5em + 0.75vw);
   } */
 
   /* время */
@@ -653,7 +653,7 @@ grid-row: row 6;
   }
 
   /* .grid__item_item-m1 {
-    font-size: calc(0.5em + 0.75vw);
+  font-size: calc(0.5em + 0.75vw);
   } */
 
   .grid__item_item-m2, .grid__item_item-m4, .grid__item_item-m6, .grid__item_item-m8, .grid__item_item-m10, .grid__item_item-m12, .grid__item_item-m14, .grid__item_item-m16, .grid__item_item-m18, .grid__item_item-m20, .grid__item_item-m22, .grid__item_item-m24, .grid__item_item-m26, .grid__item_item-m28, .grid__item_item-m30, .grid__item_item-m32 {
@@ -720,7 +720,7 @@ grid-row: row 6;
   .grid__item_item-v1 {
     grid-column: col/ span 12;
     grid-row: row 1;
-}
+  }
   .vv4 {
     grid-column: col/ span 12;
     grid-row: row 2;
@@ -796,57 +796,57 @@ grid-row: row 6;
     grid-row: row 18;
   }
 
-.grid__item_item-m1 {
-  grid-column: col/ span 12;
-  grid-row: row 1;
-}
+  .grid__item_item-m1 {
+    grid-column: col/ span 12;
+    grid-row: row 1;
+  }
 
 
-.mm2 {
-  grid-column: col/ span 12;
-  grid-row: row 2;
-}
-.mm8 {
-  grid-column: col/ span 12;
-  grid-row: row 3;
-}
-.mm14 {
-  grid-column: col/ span 12;
-  grid-row: row 4;
-}
+  .mm2 {
+    grid-column: col/ span 12;
+    grid-row: row 2;
+  }
+  .mm8 {
+    grid-column: col/ span 12;
+    grid-row: row 3;
+  }
+  .mm14 {
+    grid-column: col/ span 12;
+    grid-row: row 4;
+  }
 
-.mm4 {
-  grid-column: col/ span 12;
-  grid-row: row 5;
-}
-.mm10 {
-  grid-column: col/ span 12;
-  grid-row: row 6;
-}
-.mm16 {
-  grid-column: col/ span 12;
-  grid-row: row 7;
-}
-
-
-.mm6 {
-  grid-column: col/ span 12;
-  grid-row: row 8;
-}
-.mm12 {
-  grid-column: col/ span 12;
-  grid-row: row 9;
-}
-.mm18 {
-  grid-column: col/ span 12;
-  grid-row: row 10;
-}
+  .mm4 {
+    grid-column: col/ span 12;
+    grid-row: row 5;
+  }
+  .mm10 {
+    grid-column: col/ span 12;
+    grid-row: row 6;
+  }
+  .mm16 {
+    grid-column: col/ span 12;
+    grid-row: row 7;
+  }
 
 
-.mm33 {
-  grid-column: col 5/ span 8;
-  grid-row: row 11;
-}
+  .mm6 {
+    grid-column: col/ span 12;
+    grid-row: row 8;
+  }
+  .mm12 {
+    grid-column: col/ span 12;
+    grid-row: row 9;
+  }
+  .mm18 {
+    grid-column: col/ span 12;
+    grid-row: row 10;
+  }
+
+
+  .mm33 {
+    grid-column: col 5/ span 8;
+    grid-row: row 11;
+  }
 
 }
 

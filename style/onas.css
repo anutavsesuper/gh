@@ -99,10 +99,13 @@
 
   .grid2 {
     grid-template-rows: repeat(6, [row] auto);
-}
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 1em;
+  }
   /* ГОСТИ */
   .grid__item_item-v1 {
-    font-size: calc(0.8em + 0.75vw);
+    font-size: calc(1em + 0.75vw);
   }
   .vv4 {
     grid-column: col/ span 6;
@@ -112,7 +115,7 @@
 
   /* ГОСТИ */
   .grid__item_item-v2 {
-    font-size: calc(0.8em + 0.75vw);
+    font-size: calc(1em + 0.75vw);
     grid-column: col 7/ span 6;
     grid-row: row 3;
   }
@@ -125,7 +128,7 @@
 
   /* ТЕМА */
   .grid__item_item-v3 {
-    font-size: calc(0.8em + 0.75vw);
+    font-size: calc(1em + 0.75vw);
     grid-column: col/ span 12;
     grid-row: row 5;
   }
@@ -139,7 +142,6 @@
 @media screen and (max-width: 400px) {
   /* ГОСТИ */
   .grid__item_item-v1 {
-    font-size: calc(0.8em + 0.75vw);
     grid-column: col/ span 12;
   }
   .vv4 {

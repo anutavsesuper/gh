@@ -123,7 +123,7 @@ input {
 }
 
 /* .oo19 {
-  height: 3em;
+height: 3em;
 } */
 
 .grid__item_item-o20 {
@@ -195,82 +195,82 @@ input {
 
 
 @media screen and (max-width: 800px) {
-.grid1 {
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-  grid-template-rows: repeat(12, [row] auto);
-  grid-row-gap: 1em;
-}
+  .grid1 {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    grid-template-rows: repeat(12, [row] auto);
+    grid-row-gap: 1em;
+  }
 
-.grid__item_item-o2, .grid__item_item-o3, .grid__item_item-o4, .grid__item_item-o11, .grid__item_item-o12, .grid__item_item-o13 {
-  margin-top: 1em;
-}
+  .grid__item_item-o2, .grid__item_item-o3, .grid__item_item-o4, .grid__item_item-o11, .grid__item_item-o12, .grid__item_item-o13 {
+    margin-top: 1em;
+  }
 
-.grid__item_item-o1 {
+  .grid__item_item-o1 {
     font-size: calc(0.8em + 0.75vw);
-}
+  }
 
-input {
-  height: 5vw;
-}
+  input {
+    height: 5vw;
+  }
 
-.grid__item_item-o1 {
-  grid-column: col/ span 12;
-  grid-row: row 1;
-}
+  .grid__item_item-o1 {
+    grid-column: col/ span 12;
+    grid-row: row 1;
+  }
 
-.oo2 {
-  grid-column: col/ span 12;
-  grid-row: row 2;
-}
-.oo5 {
-  grid-column: col/ span 12;
-  grid-row: row 3;
-}
-
-
-.oo3 {
-  grid-column: col/ span 12;
-  grid-row: row 4;
-}
-.oo7 {
-  grid-column: col/ span 12;
-  grid-row: row 5;
-}
-
-.oo11 {
-  grid-column: col/ span 12;
-  grid-row: row 6;
-}
-.oo14 {
-  grid-column: col/ span 12;
-  grid-row: row 7;
-}
+  .oo2 {
+    grid-column: col/ span 12;
+    grid-row: row 2;
+  }
+  .oo5 {
+    grid-column: col/ span 12;
+    grid-row: row 3;
+  }
 
 
-.oo12 {
-  grid-column: col/ span 12;
-  grid-row: row 8;
-}
-.oo16 {
-  grid-column: col/ span 12;
-  grid-row: row 9;
-}
+  .oo3 {
+    grid-column: col/ span 12;
+    grid-row: row 4;
+  }
+  .oo7 {
+    grid-column: col/ span 12;
+    grid-row: row 5;
+  }
+
+  .oo11 {
+    grid-column: col/ span 12;
+    grid-row: row 6;
+  }
+  .oo14 {
+    grid-column: col/ span 12;
+    grid-row: row 7;
+  }
 
 
-.oo13 {
-  grid-column: col/ span 12;
-  grid-row: row 10;
-}
-.oo18 {
-  grid-column: col/ span 12;
-  grid-row: row 11;
-}
+  .oo12 {
+    grid-column: col/ span 12;
+    grid-row: row 8;
+  }
+  .oo16 {
+    grid-column: col/ span 12;
+    grid-row: row 9;
+  }
 
 
-.oo20 {
-  grid-column: col 5/ span 4;
-  grid-row: row 12;
-}
+  .oo13 {
+    grid-column: col/ span 12;
+    grid-row: row 10;
+  }
+  .oo18 {
+    grid-column: col/ span 12;
+    grid-row: row 11;
+  }
+
+
+  .oo20 {
+    grid-column: col 5/ span 4;
+    grid-row: row 12;
+  }
 
 }
