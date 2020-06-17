@@ -1,8 +1,8 @@
 @import "reset.css";
 
-/* * {
-transition: 1s;
-} */
+body {
+  cursor:url(../img/cursor.svg), auto !important;
+}
 
 .grid2,
 .grid3,
